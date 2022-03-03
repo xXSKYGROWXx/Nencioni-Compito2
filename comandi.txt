@@ -1,0 +1,30 @@
+   95  git push origin newFeature-Navbar
+   96  git branch
+   97  git checkout master
+   98  git merge
+   99  git merge master newFeature-Navbar
+  100  git commit -m "merge-conflict"
+  101  git add -A
+  102  git commit -m "merge-conflict"
+  103  git log
+  104  git push origin master
+  105  clear
+  106  cd ..
+  107  git clone https://github.com/sena-meucci/prova2.git
+  108  git clone https://github.com/sena-meucci/progettoStampa.git
+  109  cd progettoStampa
+  110  nano stampa.cpp
+  111  git commit -m "inserito nome"
+  112  git add -A
+  113  git commit -m "inserito nome"
+  114  git log
+  115  git branch BugFix
+  116  git checkout BugFix
+  117  nano Stampa.cpp
+  118  nano Stampa.cpp
+  119  git add -A
+  120  git commit -m "errore risolto in stampa"
+  121  git checkout master
+  122  git merge master BugFix
+  123  git branch -d BugFix
+  124  history 30 > comandi.txt
